@@ -108,17 +108,22 @@ export const Title = styled.div`
     color: #2e2e2e;
     font-size: 50px;
     padding-top: 50px;
-    padding-bottom: 81px;
+    padding-bottom: 15px;
     @media(max-width: 798px){
-    font-size: 37px
+        font-size: 37px
     }
-    @media(max-width: 611px){
-    font-size: 30px
+    @media(max-width: 708px){
+        font-size: 30px
     }
-    @media(max-width: 561px){
-    font-size: 20px
+    @media(max-width: 596px){
+        font-size: 20px
     }
-    
+    @media(max-width: 432px){
+        font-size: 15px
+    }
+    @media(max-width: 355px){
+        font-size: 12px
+    }
 `
 export const TitleBlue = styled.span`
     color: #3499ea;

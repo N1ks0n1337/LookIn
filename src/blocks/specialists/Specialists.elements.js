@@ -158,7 +158,6 @@ export const Title = styled.div`
     @media(max-width: 355px){
         font-size: 12px
     }
-    
 `
 export const SubTitle = styled.div`
     font-size: 22px;

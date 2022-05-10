@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import background from './image/Bg.png';
 import Specialiazation from './blocks/specializations/Specialiazation';
 import Specialists from './blocks/specialists/Specialists'
+import Provide from "./blocks/provide/Provide";
 
 const Background = styled.div`
   background-image: url('${background}');
@@ -18,7 +19,7 @@ function App() {
     <div className="App">
       <Background>
         <Header/>
-        <Specialists/>
+        <Provide/>
       </Background>
     </div>
   );
